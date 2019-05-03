@@ -3,7 +3,7 @@ const client = new Discord.Client();
  
 client.on('ready', () => {
   console.log(`Logged in as ${client.user.tag}!`);
- client.user.setGame("Twitch", "https://www.twitch.tv/Alpha");
+ client.user.setGame("التأخر في الانتقام يجعل الضربة أشد قساوة", "https://www.twitch.tv/Alpha");
 });
  
  
